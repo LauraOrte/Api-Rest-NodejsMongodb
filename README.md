@@ -13,29 +13,29 @@ Mongodb
 # Endpoints
 ### GET
 
-Devuelve el listado de todos los users registrados, su nombre y su email:
+- Devuelve el listado de todos los users registrados, su nombre y su email:
 
 /users
 
-Devuelve el user registrado indicando su id:
+- Devuelve el user registrado indicando su id:
 
 /users/:id
 
 ### POST
 
-Crea un nuevo user:
+- Crea un nuevo user:
 
 /users
 
 ### PUT
 
-Modifica un user, hay que pasar en el body los parámetros "name", "age": y "email":
+- Modifica un user, hay que pasar en el body los parámetros "name", "age": y "email":
 
 /users/:id
 
 ### DELETE
 
-Elimina un user, hay que pasar el parámetro "id":
+- Elimina un user, hay que pasar el parámetro "id":
 
 /users/:id
 
